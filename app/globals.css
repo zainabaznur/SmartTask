@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #1D4ED8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #F8FAFC;
+  color: #0F172A;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-blue-700 hover:bg-blue-800 text-white rounded-lg px-4 py-2 text-sm font-medium transition-colors;
+  }
+
+  .btn-secondary {
+    @apply border border-slate-200 bg-white hover:bg-slate-50 text-slate-700 rounded-lg px-4 py-2 text-sm font-medium transition-colors;
+  }
+
+  .card {
+    @apply bg-white border border-slate-200 rounded-xl shadow-sm p-4;
+  }
+
+  .input-field {
+    @apply border border-slate-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 h-10 px-3 w-full text-sm outline-none transition-shadow;
+  }
+
+  .textarea-field {
+    @apply border border-slate-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 px-3 py-2 w-full text-sm outline-none transition-shadow resize-none;
+  }
+}
