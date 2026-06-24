@@ -169,7 +169,7 @@ export default function LandingPage() {
             Mulai kelola tugasmu sekarang
           </h2>
           <p className="text-blue-200 mb-8 text-sm leading-relaxed">
-            Gratis selamanya untuk mahasiswa. Tidak perlu kartu kredit.
+            Kelola selamanya untuk mahasiswa. Tidak perlu kartu kredit.
           </p>
           <div className="flex items-center justify-center gap-4 flex-wrap">
             <Link
