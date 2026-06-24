@@ -169,7 +169,7 @@ export default function LandingPage() {
             Mulai kelola tugasmu sekarang
           </h2>
           <p className="text-blue-200 mb-8 text-sm leading-relaxed">
-            Kelola selamanya untuk mahasiswa. Tidak perlu kartu kredit.
+            Atur tugas kuliah & organisasi dengan prioritas otomatis.
           </p>
           <div className="flex items-center justify-center gap-4 flex-wrap">
             <Link
